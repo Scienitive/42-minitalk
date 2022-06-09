@@ -8,7 +8,9 @@ This project is about creating communication between processes using only 2 sign
 
 `make` to compile the project
 
-Then in one terminal run the server `./server`, in another terminal run the client `./client [servers PID] [your message]`
+Then in one terminal run the server `./server`
+
+In another terminal run the client `./client [servers PID] [your message]`
 
 # How It Works
 
