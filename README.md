@@ -1,2 +1,15 @@
 # 42-minitalk
-The minitalk project at 42 schools.
+
+Score: 115/100
+
+This project is about creating communication between processes using only 2 signals.
+
+# Usage
+
+`make` to compile the project
+
+Then in one terminal run the server `./server`, in another terminal run the client `./client [servers PID] [your message]`
+
+# How It Works
+
+The client program takes the message and sends it using only SIGUSR1 and SIGUSR2. In my code SIGUSR1 represents 1 and SIGUSR2 represents 2. This way we can send the message's bits to the server and the server can recreate the string with its bits.
